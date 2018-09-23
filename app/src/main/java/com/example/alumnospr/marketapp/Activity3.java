@@ -94,7 +94,7 @@ public class Activity3 extends AppCompatActivity {
 
             long newRowId = db.insert(EstructuraBD.TABLE_NAME, null, values);
 
-            Toast.makeText(getApplicationContext(),"Se guardo el registro con clave" + newRowId,Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"SE HA AÑADIDO EL ARTÍCULO AL CARRITO" + newRowId,Toast.LENGTH_LONG).show();
 
         }
     }
