@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MarketAPP</string>
+    <string-array name="opciones">
+        <item>Bebidas</item>
+        <item>Comidas</item>
+        <item>Tienda</item>
+    </string-array>
+</resources>
