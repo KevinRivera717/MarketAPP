@@ -133,5 +133,5 @@ public class Activity2 extends AppCompatActivity {
                 definirLista(pos);
             }//Fin If
         }//Fin onResume()
-    }
+    }//Fin Class
 
