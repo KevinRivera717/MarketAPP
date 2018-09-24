@@ -22,7 +22,8 @@
         <activity
             android:name=".Activity3"
             android:parentActivityName=".Activity2" />
-        <activity android:name=".ActivityStore"></activity>
+        <activity android:name=".ActivityStore"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

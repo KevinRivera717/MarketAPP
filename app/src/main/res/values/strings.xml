@@ -3,6 +3,6 @@
     <string-array name="opciones">
         <item>Bebidas</item>
         <item>Comidas</item>
-        <item>Tienda</item>
+        <item>Ir al Carrito</item>
     </string-array>
 </resources>
