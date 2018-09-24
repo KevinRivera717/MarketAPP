@@ -7,7 +7,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-//CLASE PRINCIPAL CORRESPONDIENTE AL ACTIVITY PRINCIPAL
+/**
+ *CLASE PRINCIPAL CORRESPONDIENTE AL ACTIVITY PRINCIPAL
+ * @author Bastian Vidal
+ * @version 19-09-2018
+ */
 public class MainActivity extends AppCompatActivity {
 
     //DECLARACION DE VARIABLES
@@ -27,19 +31,19 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //SE EVALÚA QUE LA SELECCIÓN NO FUESE NULA
                 if(position != -1) {
+                    //En caso de ser cualquier opcion, excepto por el carrito, envía al Activity2
                     if (position != 2) {
                         Intent intento = new Intent(MainActivity.this, Activity2.class);
                         intento.putExtra("posicion", position);
                         startActivity(intento);
 
-                    } else {
+                    } else {//Caso contratio envía al ActivityStore que muestra el carrito
                         Intent intento = new Intent(MainActivity.this, ActivityStore.class);
                         startActivity(intento);
-                    }
-                }
-            }
-            }
+                    }//Fin If
+                }//Fin If
+            }//Fin onItemClick()
+            }//Fin setOnItem..
         );
-    }
-
-}
+    }//Fin onCreate()
+}//Fin Class
