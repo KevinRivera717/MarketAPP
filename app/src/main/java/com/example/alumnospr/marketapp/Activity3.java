@@ -96,9 +96,9 @@ public class Activity3 extends AppCompatActivity {
             //Se convierte  Integer
             int aux = Integer.parseInt(valor);
             //Se define el valor de una resta de - 1 en el TextView, y en el caso de que el valor
-            //sea igual a 0, se mantiene
-            if (aux == 0){
-               cant.setText(""+0);
+            //sea igual a 1, se mantiene
+            if (aux == 1){
+               cant.setText(""+1);
             }else {
                 cant.setText("" + (aux - 1));
             }//Fin If

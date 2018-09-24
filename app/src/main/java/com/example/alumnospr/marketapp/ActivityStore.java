@@ -84,7 +84,8 @@ public class ActivityStore extends AppCompatActivity {
                 int cant = Integer.parseInt(cursor.getString(1));
                 int precio = Integer.parseInt(cursor.getString(2));
                 //Se guarda una sentencia en el ArrayList que contiente todos los valores obtenidos de la consulta
-                producto.add(cursor.getString(0) + " Cant:" + cant + " P.Unidad:$" + precio + " Subtotal:$" + (precio * cant));
+                producto.add(cursor.getString(0) + " \nCantidad: " + cant + " \nPrecio unitario: $" + precio +
+                        " \nSubtotal: $" + (precio * cant));
                 //Variable acumuladora que va calculando el total el pedido
                 acum = acum + (precio * cant);
             }while (cursor.moveToNext());//Fin Do-While
