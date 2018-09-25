@@ -47,3 +47,21 @@ public class MainActivity extends AppCompatActivity {
         );
     }//Fin onCreate()
 }//Fin Class
+
+/**
+ * Respuestas de la evaluación
+ * 1.- Fortalezas y debilidades durante la evaluación
+ * Fortalezas: Dado que cuento con experiencia adquirida anteriormente no fue complicado manejarse en la lógica de programación en JAVA
+ * Debilidades: Debido a las carácteristicas del proyecto tuve que investigar cosas no vistas anteriormente para lograr el correcto
+ * funcionamiento de la app.
+ *
+ * 2.- Observaciónes sobre la realización de la evaluación
+ * La evaluación fue escencial para conocer las funcionalidades del IDE Android Studio y la versatilidad de las APPs android,
+ * fue gran ayuda para una introducción a la programación de aplicaciones moviles.
+ *
+ * Bastián Ignacio Vidal Torres
+ * Aplicaciónes Móviles TIDS08/641
+ * Analista Programador
+ * Sede Pérez Rosales
+ * 24/09/2018
+ */
