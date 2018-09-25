@@ -1,7 +1,11 @@
 package com.example.alumnospr.marketapp;
 
-//ESTA CLASE CONTIENE LOS ATRIBUTOS PARA LOS PRODUCTOS
-//ADEMÁS DE LA DEFINICIÓN D EPRODUCTOS SEGÚN EL TIPO
+/**
+ * ESTA CLASE CONTIENE LOS ATRIBUTOS PARA LOS PRODUCTOS
+ * ADEMÁS DE LA DEFINICIÓN DE PRODUCTOS SEGÚN EL TIPO
+ * @author Bastian Vidal
+ * @version 18-09-2018
+ */
 public class Producto {
 //DECLARACIÓN DE VARIABLES
     private String nombre;
@@ -9,29 +13,34 @@ public class Producto {
     private int imagenID;
     private int precio ;
 
-//DECLARACIÓN DE ARREGLO QUE CONTIENE PRODUCTOS DEL TIPO CERVEZAS
+//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO CERVEZAS
     public final static Producto cervezas[]={
             new Producto("Lager","Deliciosa Cerveza Rubia",R.drawable.lager,2800),
             new Producto("Ambar", "Exquisita Cerveza Ambar",R.drawable.ambar,2200),
             new Producto("Bock","Sabrosa Cerveza Negra",R.drawable.bock,3000)
     };
-//DECLARACIÓN DE ARREGLO QUE CONTIENE PRODUCTOS DEL TIPO PIZZAS
+//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO PIZZAS
     public final static Producto pizzas[]={
             new Producto("Hawaiana","Contiene jamón, trozos de piña y extra queso. Tamaño Familiar",R.drawable.hawaiana,7500),
             new Producto("Pollo BBQ","Contiene pollo, cebollas, salsa BBQ, queso cheddar, provolone y extra queso. Tamaño Familiar",R.drawable.pollo_bbq,8000),
             new Producto("Americana","Contiene salsa de tomate extra, queso mozzarella, jamón, carne, salchicha italiana," +
                             "tocino, pepperoni y extra queso",R.drawable.americana,8500)
     };
-//CONSTRUCTOR POR DEFECTO
+
+    /**
+     * Constructor por defecto
+     */
     public Producto() {
     }
-//CONSTRUCTOR CON PARÁMETROS
+
+    /**
+     *CONSTRUCTOR CON PARÁMETROS
+     */
     public Producto(String nombre, String descripcion, int imagenID, int precio) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.imagenID = imagenID;
         this.precio = precio;
-
     }
 
     //GETTERS Y SETTERS
